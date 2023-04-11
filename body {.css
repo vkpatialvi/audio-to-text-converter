@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+#convertButton {
+  margin-top: 1rem;
+}
+
+#transcription {
+  resize: none;
+}

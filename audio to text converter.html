@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Audio to Text Converter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>Audio to Text Converter</h1>
+      <div class="form-group">
+        <label for="audioFile">Upload Audio File:</label>
+        <input type="file" class="form-control-file" id="audioFile">
+      </div>
+      <button type="button" class="btn btn-primary" id="convertButton">Convert</button>
+      <div class="mt-3">
+        <label for="transcription">Transcription:</label>
+        <textarea class="form-control" id="transcription" rows="6" readonly></textarea>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
